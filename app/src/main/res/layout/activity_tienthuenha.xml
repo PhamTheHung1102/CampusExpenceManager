@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#87CEEB">
+    <!-- Số Tiền Input -->
+    <TextView
+        android:id="@+id/textViewSoTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số tiền"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextSoTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số tiền"
+        android:inputType="numberDecimal" />
+
+    <!-- Địa Chỉ Input -->
+    <TextView
+        android:id="@+id/textViewDiaChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập địa chỉ" />
+
+    <!-- Thông Tin Khác Input -->
+    <TextView
+        android:id="@+id/textViewThongTinKhac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin khác"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextThongTinKhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập thông tin khác" />
+
+    <!-- Chọn Ngày Button -->
+    <TextView
+        android:id="@+id/textViewNgayThang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày tháng"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnChonNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn ngày" />
+
+    <!-- Nút Lưu Thông Tin -->
+    <Button
+        android:id="@+id/btnLuuThongTin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu thông tin"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút Quay Lại -->
+    <Button
+        android:id="@+id/btnQuayLai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:layout_marginTop="8dp" />
+
+    <!-- Kết quả hiển thị thông tin -->
+    <LinearLayout
+        android:id="@+id/layoutResultContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

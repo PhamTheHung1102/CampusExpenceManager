@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.login">
+
+    <!-- Các quyền mà ứng dụng yêu cầu -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login"
+        tools:targetApi="31">
+
+        <!-- Các Activity trong ứng dụng -->
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".KhoanChiActivity" />
+        <activity android:name=".ThongKeActivity" />
+        <activity android:name=".DanhMucActivity" />
+
+        <!-- Activity mới cho Khoản Thu -->
+        <activity android:name=".KhoanThuActivity" />
+
+        <!-- Main Activity là activity khởi động đầu tiên -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity cho Login -->
+        <activity android:name=".LoginActivity" />
+
+        <!-- Các Activity cho Lương, Thưởng, Quà, và Đầu Tư -->
+        <activity android:name=".LuongActivity" />
+        <activity android:name=".ThuongActivity" />
+        <activity android:name=".QuaActivity" />
+        <activity android:name=".DauTuActivity" />
+
+        <!-- Các Activity cho Tiền Học Phí, Tiền Thuê Nhà, Giải Trí, Mua Sắm -->
+        <activity android:name=".TienHocPhiActivity" />
+        <activity android:name=".TienThueNhaActivity" />
+        <activity android:name=".GiaiTriActivity" />
+        <activity android:name=".MuaSamActivity" />
+        <activity android:name=".ChiTieuKhacActivity"/>
+
+    </application>
+
+</manifest>

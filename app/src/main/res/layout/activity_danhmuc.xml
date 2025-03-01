@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FDFDFD">
+
+    <!-- Nội dung của DanhMucActivity -->
+    <TextView
+        android:id="@+id/textViewDanhMuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh Mục"
+        android:textSize="20sp" />
+
+    <!-- Hình ảnh phía trên các nút -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="193dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Icon Doanh Mục"
+        android:src="@drawable/anh1" />
+
+    <!-- Nút Khoản Thu -->
+    <Button
+        android:id="@+id/btnKhoanThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khoản Thu"
+        android:backgroundTint="#DCB265"/>
+
+    <!-- Nút Khoản Chi -->
+    <Button
+        android:id="@+id/btnKhoanChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khoản Chi"
+        android:backgroundTint="#DCB265"/>
+
+    <!-- Nút Thống Kê -->
+    <Button
+        android:id="@+id/btnThongKe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống Kê"
+        android:backgroundTint="#DCB265"/>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:backgroundTint="#53BACC"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

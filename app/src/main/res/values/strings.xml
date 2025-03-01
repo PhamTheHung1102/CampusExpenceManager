@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quan Ly Thu Chi</string>
+    <string name="menu">Danh Mục</string>
+    <string name="log_out">Log Out</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Tiếng Việt</string>
+</resources>

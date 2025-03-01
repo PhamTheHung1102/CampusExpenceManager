@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C8C38E</color>
+    <color name="colorPrimaryDark">#BDA6E9</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="red">#FF0000</color> <!-- Màu đỏ -->
+    <color name="green">#D5A367</color> <!-- Màu xanh lá cây -->
+    <color name="colorKhoanThu">#4CB8A3</color> <!-- Màu xanh cho khoản thu -->
+    <color name="colorKhoanChi1">#03A9F4</color> <!-- Màu đỏ cho khoản chi 1 -->
+    <color name="colorKhoanChi2">#FF9800</color> <!-- Màu cam cho khoản chi 2 -->
+    <color name="white">#020202</color> <!-- Màu trắng cho chữ -->
+    <color name="colorKhoanChi3">#CDDC39</color> <!-- Màu đỏ cho khoản chi 3 -->
+    <color name="colorKhoanChi4">#C85C84</color> <!-- Màu đỏ cho khoản chi 1 -->
+    <color name="colorKhoanChi5">#3B3E1C</color> <!-- Màu cam cho khoản chi 2 -->
+    <color name="black">#000000</color>
+    <color name="colorKhoanChi6">#571F43</color> <!-- Màu đỏ cho khoản chi 3 -->
+</resources>

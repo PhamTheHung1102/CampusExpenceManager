@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img_4">
+
+    <!-- Tiền nhập -->
+    <EditText
+        android:id="@+id/edtSoTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tiền"
+        android:inputType="numberDecimal"
+        android:padding="10dp"/>
+
+    <!-- Mô tả -->
+    <EditText
+        android:id="@+id/edtMoTaKhoanThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả"
+        android:padding="10dp"/>
+
+    <!-- Ngày tháng -->
+    <EditText
+        android:id="@+id/edtNgayThang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày tháng"
+        android:inputType="date"
+        android:padding="10dp"/>
+
+    <!-- Nút Lưu -->
+    <Button
+        android:id="@+id/btnLuuKhoanThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu khoản thu"
+        android:backgroundTint="#B27BE6"
+        android:padding="10dp"/>
+
+    <!-- Nút Back -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:backgroundTint="#B27BE6"
+        android:padding="10dp"/>
+
+    <!-- Kết quả hiển thị -->
+    <LinearLayout
+        android:id="@+id/layoutResultContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"/>
+</LinearLayout>

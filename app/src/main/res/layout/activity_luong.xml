@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#87CEEB">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/textViewLuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lương"
+        android:textSize="20sp" />
+
+    <!-- Nút Quay lại -->
+    <Button
+        android:id="@+id/btnBackHomeLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại Home" />
+
+</LinearLayout>

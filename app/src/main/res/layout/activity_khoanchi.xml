@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img">
+
+    <!-- Các EditText và Button ở đây -->
+
+    <EditText
+        android:id="@+id/edtSoTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tiền"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+    android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edtMoTaChiTieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả"
+        android:padding="8dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edtNgayThang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày tháng"
+        android:inputType="date"
+        android:padding="8dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnLuuChiTieuKhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu Chi Tiêu"
+        android:textStyle="bold"
+        android:textSize="14sp"
+    android:layout_marginBottom="8dp"
+
+    android:textColor="#FFFFFF"
+        android:backgroundTint="#E07C62"/>
+
+    <!-- Nút Back -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay Lại"
+        android:textStyle="bold"
+        android:textSize="14sp"
+    android:layout_marginBottom="16dp"
+        android:backgroundTint="#E07C62"
+    android:textColor="#FFFFFF"/>
+
+    <!-- Container để hiển thị danh sách chi tiêu -->
+    <LinearLayout
+        android:id="@+id/layoutResultContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:scrollbars="vertical">
+    </LinearLayout>
+</LinearLayout>

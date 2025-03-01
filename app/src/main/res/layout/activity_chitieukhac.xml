@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nhập nội dung chi tiêu -->
+    <EditText
+        android:id="@+id/edtNoiDungChiTieuKhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập nội dung chi tiêu khác"
+        android:inputType="text" />
+
+    <!-- Nhập số tiền -->
+    <EditText
+        android:id="@+id/edtSoTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số tiền"
+        android:inputType="numberDecimal" />
+
+    <!-- Nhập loại chi tiêu -->
+    <EditText
+        android:id="@+id/edtLoaiChiTieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập loại chi tiêu (ví dụ: Tiền ăn, Tiền điện)"
+        android:inputType="text" />
+
+    <!-- Nhập ngày giờ -->
+    <EditText
+        android:id="@+id/edtNgayGio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập ngày giờ (ví dụ: 18/12/2024 14:30)"
+        android:inputType="datetime" />
+
+    <!-- Nút lưu chi tiêu -->
+    <Button
+        android:id="@+id/btnLuuChiTieuKhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu Chi Tiêu" />
+</LinearLayout>
